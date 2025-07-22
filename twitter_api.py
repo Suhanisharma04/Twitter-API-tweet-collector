@@ -2,10 +2,9 @@ import requests
 import pandas as pd
 
 
-API_KEY = "wjTuiyD7dLswV7YHt15mJu3w3"
-API_KEY_SECRET = "0wHvYOEoDkqmyagAXDkTnubDn7Ihdmm2FMjsOgxYFqGGm4OK9n"
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAABSk3AEAAAAARtLbgAknbcq%2FV7eef%2Bw%2B9fKWluE%3DKMeiPnVeRzFrsDNZs3gdAkuQIXsdUD3aF8H9IFqR06O1yzBtuN"
-
+API_KEY = "your_api_key_here"
+API_KEY_SECRET = "your_api_secret_key_here"
+BEARER_TOKEN = "your_bearer_token_here"
 headers= {"Authorization": f"Bearer {BEARER_TOKEN}"}
 
 handle = "CommBank"
