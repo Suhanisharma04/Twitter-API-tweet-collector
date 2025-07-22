@@ -20,9 +20,9 @@ This project collects and saves the latest tweets from the official **@CommBank*
 pip install -r requirements.txt
 
 ## Add your Twitter API credentials in a file called config.py:
-API_KEY = "your_api_key"
-API_KEY_SECRET = "your_api_secret"
-BEARER_TOKEN = "your_bearer_token"
+- API_KEY = "your_api_key"
+- API_KEY_SECRET = "your_api_secret"
+- BEARER_TOKEN = "your_bearer_token"
 
 # Run the script
 
